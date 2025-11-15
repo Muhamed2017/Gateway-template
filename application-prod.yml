@@ -1,0 +1,24 @@
+server:
+  shutdown: graceful
+
+spring:
+  jpa:
+    show-sql: false
+    properties:
+      hibernate:
+        generate_statistics: false
+
+logging:
+  level:
+    root: WARN
+    com.enterprise.gateway: INFO
+    org.springframework.web: WARN
+    org.springframework.security: WARN
+    org.hibernate.SQL: WARN
+  file:
+    name: /var/log/api-gateway/application.log
+
+management:
+  endpoint:
+    health:
+      show-details: never
